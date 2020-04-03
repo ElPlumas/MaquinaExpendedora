@@ -520,8 +520,8 @@ public class Maquina extends javax.swing.JFrame {
     private void btnMasRefrescoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMasRefrescoActionPerformed
         if (producto - 1 >= 0) {
             producto --;
-            if (monto - 17 >= 0) {
-                monto -= 17;
+            if (monto - PRICE >= 0) {
+                monto -= PRICE;
                 carrito ++;
                 setMonto();
             }else {
